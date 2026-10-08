@@ -14,6 +14,8 @@ import CustomOrder from './pages/CustomOrder';
 import Process from './pages/Process';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsConditions from './pages/TermsConditions';
 
 // 404 Fallback component
 function NotFound() {
@@ -55,6 +57,8 @@ export default function App() {
             <Route path="/process" element={<Process />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsConditions />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
